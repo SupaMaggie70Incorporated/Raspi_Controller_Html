@@ -1,0 +1,28 @@
+.header1{
+    position:absolute;
+    top: 30%;
+    left:20%;
+    font-size:15em;
+    color: #00ff00
+}
+.header2{
+    position:absolute;
+    top: 50%;
+    left:30%;
+    font-size:5em;
+    color: #00ff00
+}
+.header3{
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    font-size: 5em;
+    color: #00ff00;
+}
+.body1{
+    position:absolute;
+    top:30%;
+    left:65%;
+    font-size:2em;
+    color: #00ff00;
+}

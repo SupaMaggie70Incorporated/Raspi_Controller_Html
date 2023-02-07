@@ -1,0 +1,42 @@
+ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+    color: #00ff00;
+    font-size: 20px;
+    margin-left: 2%;
+}
+button {
+    color: #00ff00;
+    cursor: pointer;
+    background-color: #101010;
+    margin: 0;
+    padding:0;
+    border: 0;
+    font-size: 20px;
+}
+.options {
+    text-align:right;
+    position:fixed;
+    right:5%;
+    width:15%;
+    margin:0;
+}
+.option{
+    margin-right:0;
+    margin-left:2%;
+    margin-top:0;
+    margin-bottom:0;
+}
+.pagebody {
+    font-size: 20px;
+    position:absolute;
+    top: 15%;
+    left:10%;
+    width:70%;
+    height:75%;
+    text-align: left;
+    align-self:center;
+    margin:0;
+    padding:0;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/raw/base.css">
+    <link rel="stylesheet" href="/raw/files.css"-->
+    <!--link rel="icon" href="/logo.png"-->
+    <title>Document</title>
+</head>
+<body>
+    <script src="/raw/files.js"></script>
+    <div class="top">
+    <div class="toppart">
+      <a class="toplink" href="/home">
+        <img src="logo.png" width="100%">
+      </a>
+    </div>
+    <div class="toppart">
+      <a class="toplink" href="/home">
+        About
+      </a>
+    </div>
+    <div class="toppart">
+      <a class="toplink" href="/tasks">
+        Task Manager
+      </a>
+    </div>
+    <div class="toppart">
+      <a class="toplink" href="/terminals">
+        Terminal Viewer
+      </a>
+    </div>
+    <div class="toppart">
+      <a class="toplink" href="/system">
+        System Viewer
+      </a>
+    </div>
+    <div class="toppart">
+      <a class="toplink" href="/files">
+        File Manager
+      </a>
+    </div>
+    <div class="toppart">
+      <a class="toplink" href="/network">
+        Network Viewer
+      </a>
+    </div>
+    <div class="toppart">
+      <a class="toplink" href="/users">
+        User Management
+      </a>
+    </div>
+    <div class="toppart">
+      <a class="toplink" href="/something">
+        Something else
+      </a>
+    </div>
+    <div class="toppart">
+      <a class="toplink" href="/profile">
+        Account/Profile
+      </a>
+    </div>
+  </div>
+  <div class="pagebody">
+      <li data-type="directory" name="C:">
+        <button onclick="DirectoryClicked(event)">C:/</button>
+        <div class="options"><button class="option">Save</button><button class="option">Reload</button></div>
+        <ul data-type="nestedchildren">
+            <li data-type="directory" name="Program Files">
+              <button onclick="DirectoryClicked(event)">Program Files</button>
+              <ul data-type="nestedchildren">
+                <li data-type="file">
+                  <button onclick="FileClicked(event)">calc.exe</button>
+                </li>
+              </ul>
+            </li>
+            <li data-type="directory">
+              <button onclick="DirectoryClicked(event)">System Files</button>
+              <ul data-type="nestedchildren">
+                <li data-type="directory">
+                  <button onclick="DirectoryClicked(event)">kernel</button>
+                  <ul data-type="nestedchildren">
+                    <li data-type="file">
+                      <button onclick="FileClicked(event)">kernel.dll</button>
+                    </li>
+                  </ul>
+                </li>
+                <li data-type="file">
+                  <button onclick="FileClicked(event)">win32.dll</button>
+                </li>
+                <li data-type="file">
+                  <button onclick="FileClicked(event)">cmd.exe</button>
+                </li>
+              </ul>
+            </li>
+        </ul>
+      </li>
+  </div>
+</body>
+</html>

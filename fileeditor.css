@@ -1,0 +1,16 @@
+.editor {
+    border-color: #00ff00;
+    border-width:1px;
+    border-style: solid;
+    font-size: 20px;
+    position:absolute;
+    top: 15%;
+    left:10%;
+    width:80%;
+    height:75%;
+    overflow-x: auto;
+    overflow-y: auto;
+    text-align: left;
+    align-self:center;
+    white-space: pre;
+}

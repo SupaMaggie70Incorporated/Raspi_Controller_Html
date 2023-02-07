@@ -1,0 +1,25 @@
+.loginform{
+    text-align: center;
+}
+.loginlabel{
+    width: 20%;
+    font-size:50px;
+}
+.loginfield{
+    width: 20%;
+    font-size: 30px;
+    color: #00ff00;
+    background-color: #101010;
+}
+.loginbutton{
+    width:10%;
+    font-size:40px;
+    color: #00ff00;
+    background-color: #101010;
+}
+.anonbutton{
+    width: 15%;
+    font-size:30px;
+    color:#00ff00;
+    background-color: #101010;
+}

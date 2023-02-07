@@ -1,0 +1,14 @@
+.devicelistbackground{
+    background-color: #202020;
+    position:absolute;
+    top: 20%;
+    left: 5%;
+    width: 40%;
+}
+.deviceviewerbackground{
+    background-color: #202020;
+    position:absolute;
+    top: 20%;
+    left: 55%;
+    width: 40%;
+}
