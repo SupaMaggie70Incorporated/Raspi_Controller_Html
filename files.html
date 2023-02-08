@@ -64,9 +64,14 @@
     </div>
   </div>
   <div class="pagebody">
-      <li data-type="directory" name="C:">
-        <button onclick="DirectoryClicked(event)">C:/</button>
-        <div class="options"><button class="option">Save</button><button class="option">Reload</button></div>
+      <div data-type="directory" name="C:">
+        <button onclick="DirectoryClicked(event.target.parentNode)">C:/</button>
+        <div class="options">
+          <button class="option" onclick="UploadClicked(event)">Upload</button>
+          <button class="option" onclick="RenameClicked(event)">Rename</button>
+          <button class="option" onclick="DownloadDirectoryClicked(event)">Download</button>
+          <button class="option" onclick="DeleteClicked(event)">Delete</button>
+        </div>
         <ul data-type="nestedchildren">
             <li data-type="directory" name="Program Files">
               <button onclick="DirectoryClicked(event)">Program Files</button>
@@ -96,7 +101,7 @@
               </ul>
             </li>
         </ul>
-      </li>
+      </div>
   </div>
 </body>
 </html>

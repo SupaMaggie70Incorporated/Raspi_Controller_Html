@@ -15,7 +15,6 @@ document.addEventListener('keydown', e => {
 });
 
 async function Reload() {
-    if(!confirm("You may have unsaved changes - are you sure you wish to reload?")) return;
     console.log("Reloading");
     let path = "/files/read" + location.pathname.slice(11);
     let content = await (await fetch(path)).text();
