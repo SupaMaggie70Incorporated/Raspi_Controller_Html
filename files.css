@@ -19,9 +19,9 @@ button {
 .options {
     display:inline-block;
     text-align:right;
-    position:fixed;
-    right:5%;
-    width:15%;
+    position:absolute;
+    right:0%;
+    width:25%;
     margin:0;
 }
 .option{

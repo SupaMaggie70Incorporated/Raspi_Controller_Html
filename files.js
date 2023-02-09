@@ -55,7 +55,6 @@ async function EditClicked(self) {
     window.location.href = path;
 }
 async function UploadClicked(self) {
-
 }
 async function RenameClicked(self) {
 
